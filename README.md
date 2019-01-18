@@ -1,14 +1,19 @@
 # HihoCoder Practice Archive
 
-This is an archive repository for hihocoder questions.
+This is an archive repository for hihocoder questions and my solutions.
 ## Environment
 .Net Core 2.1.403
+
+## How to use
 Every problem is constructed under an individual project. For projects with standard input, sample input has been already stored in corresponding file with name `input`. You can use it with following command:
+
 ```csharp
 cat input | dotnet run
 ```
 # Problem List
-## Solved
+Updated on 2019-01-18
+
+## Solved(3)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -16,14 +21,14 @@ cat input | dotnet run
 |[1481](http://hihocoder.com/problemset/problem/1481)|出勤记录I||Lv.1|461|[1481](/1481)|
 |[1678](http://hihocoder.com/problemset/problem/1678)|版本号排序||Lv.1|117|[1678](/1678)|
 
-## Tried
+## Tried, but not solved(2)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
 |[1014](http://hihocoder.com/problemset/problem/1014)|Trie树|`trie` |Lv.2|6618|[1014](/1014)|
 |[1268](http://hihocoder.com/problemset/problem/1268)|九宫||Lv.1|647|[1268](/1268)|
 
-## Not Tried
+## Not tried(827)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|

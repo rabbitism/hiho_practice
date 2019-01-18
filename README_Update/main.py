@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import time
 
 def load_content():
     htmlf = open("source.html", 'r', encoding="utf-8")
@@ -30,60 +31,40 @@ def parse(content:str):
 def generate(result:dict):
     with open("README.MD", 'w', encoding='utf-8') as f:
         f.writelines(r"# HihoCoder Practice Archive"+"\n\n")
-        f.writelines(r"This is an archive repository for hihocoder questions."+"\n")
+        f.writelines(r"This is an archive repository for hihocoder questions and my solutions."+"\n")
         f.writelines(r"## Environment"+"\n")
-        f.writelines(r".Net Core 2.1.403"+"\n")
-        f.writelines(r"Every problem is constructed under an individual project. For projects with standard input, sample input has been already stored in corresponding file with name `input`. You can use it with following command:"+"\n")
+        f.writelines(r".Net Core 2.1.403"+"\n\n")
+        f.writelines(r"## How to use"+"\n")
+        f.writelines(r"Every problem is constructed under an individual project. For projects with standard input, sample input has been already stored in corresponding file with name `input`. You can use it with following command:"+"\n\n")
         f.writelines(r"```csharp"+"\n"+r"cat input | dotnet run"+"\n```"+"\n")
         f.writelines(r"# Problem List"+"\n")
-        f.writelines(r"## Solved"+"\n\n")
-        f.writelines(r"|ID|Name|Tags|Difficulty|Solved|Solution|"+"\n"+r"|:---:|:---|:---|:---:|:---|:---:|"+"\n")
+        f.writelines(r"Updated on "+time.strftime("%Y-%m-%d", time.localtime())+"\n")
+        statusSum = {}
         for id in result.keys():
-            attributes = result[id]
-            if(attributes['status']=='solved'):
-                f.write("|["+id+"](http://hihocoder.com/problemset/problem/"+id+")")
-                f.write("|"+attributes['name'])
-                f.write("|")
-                if(len(attributes['tags'])>0):
-                    for tag in attributes['tags']:
-                        f.write("`"+tag+"` ")
-                f.write("|"+attributes['difficulty'])
-                f.write("|"+attributes['solved'])
-                f.write("|["+id+"](/"+id+")")
-                f.write("|\n")
-
-        f.writelines("\n"+ r"## Tried"+"\n\n")
-        f.writelines(r"|ID|Name|Tags|Difficulty|Solved|Solution|"+"\n"+r"|:---:|:---|:---|:---:|:---|:---:|"+"\n")
-        for id in result.keys():
-            attributes = result[id]
-            if(attributes['status']=='tried, but not solved'):
-                f.write("|["+id+"](http://hihocoder.com/problemset/problem/"+id+")")
-                f.write("|"+attributes['name'])
-                f.write("|")
-                if(len(attributes['tags'])>0):
-                    for tag in attributes['tags']:
-                        f.write("`"+tag+"` ")
-                f.write("|"+attributes['difficulty'])
-                f.write("|"+attributes['solved'])
-                f.write("|["+id+"](/"+id+")")
-                f.write("|\n")
-
-        f.writelines("\n"+ r"## Not Tried"+"\n\n")
-        f.writelines(r"|ID|Name|Tags|Difficulty|Solved|Solution|"+"\n"+r"|:---:|:---|:---|:---:|:---|:---:|"+"\n")
-        for id in result.keys():
-            attributes = result[id]
-            if(attributes['status']==''):
-                f.write("|["+id+"](http://hihocoder.com/problemset/problem/"+id+")")
-                f.write("|"+attributes['name'])
-                f.write("|")
-                if(len(attributes['tags'])>0):
-                    for tag in attributes['tags']:
-                        f.write("`"+tag+"` ")
-                f.write("|"+attributes['difficulty'])
-                f.write("|"+attributes['solved'])
-                f.write("|")
-                f.write("|\n")
-
+            status = result[id]['status']
+            if(status in statusSum.keys()):
+                statusSum[status]+=1
+            else:
+                statusSum[status]=1
+        #print(statusSum)
+        for key in statusSum.keys():
+            title = 'Not tried' if key=='' else key.capitalize()
+            f.writelines("\n"+r"## "+ title +"("+str(statusSum[key])+")\n\n")
+            f.writelines(r"|ID|Name|Tags|Difficulty|Solved|Solution|"+"\n"+r"|:---:|:---|:---|:---:|:---|:---:|"+"\n")
+            for id in result.keys():
+                attributes = result[id]
+                if(attributes['status']==key):
+                    f.write("|["+id+"](http://hihocoder.com/problemset/problem/"+id+")")
+                    f.write("|"+attributes['name'])
+                    f.write("|")
+                    if(len(attributes['tags'])>0):
+                        for tag in attributes['tags']:
+                            f.write("`"+tag+"` ")
+                    f.write("|"+attributes['difficulty'])
+                    f.write("|"+attributes['solved'])
+                    path = '' if key=='' else "["+id+"](/"+id+")"
+                    f.write("|"+path)
+                    f.write("|\n")
 
         
         
