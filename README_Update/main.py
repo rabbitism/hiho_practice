@@ -62,7 +62,7 @@ def generate(result:dict):
                             f.write("`"+tag+"` ")
                     f.write("|"+attributes['difficulty'])
                     f.write("|"+attributes['solved'])
-                    path = '' if key=='' else "["+id+"](/"+id+")"
+                    path = '' if key=='' else "["+id+"](/Solutions/"+id+")"
                     f.write("|"+path)
                     f.write("|\n")
 

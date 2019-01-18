@@ -17,16 +17,16 @@ Updated on 2019-01-18
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
-|[1000](http://hihocoder.com/problemset/problem/1000)|A + B|`math` |Lv.1|22991|[1000](/1000)|
-|[1481](http://hihocoder.com/problemset/problem/1481)|出勤记录I||Lv.1|461|[1481](/1481)|
-|[1678](http://hihocoder.com/problemset/problem/1678)|版本号排序||Lv.1|117|[1678](/1678)|
+|[1000](http://hihocoder.com/problemset/problem/1000)|A + B|`math` |Lv.1|22991|[1000](/Solutions/1000)|
+|[1481](http://hihocoder.com/problemset/problem/1481)|出勤记录I||Lv.1|461|[1481](/Solutions/1481)|
+|[1678](http://hihocoder.com/problemset/problem/1678)|版本号排序||Lv.1|117|[1678](/Solutions/1678)|
 
 ## Tried, but not solved(2)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
-|[1014](http://hihocoder.com/problemset/problem/1014)|Trie树|`trie` |Lv.2|6618|[1014](/1014)|
-|[1268](http://hihocoder.com/problemset/problem/1268)|九宫||Lv.1|647|[1268](/1268)|
+|[1014](http://hihocoder.com/problemset/problem/1014)|Trie树|`trie` |Lv.2|6618|[1014](/Solutions/1014)|
+|[1268](http://hihocoder.com/problemset/problem/1268)|九宫||Lv.1|647|[1268](/Solutions/1268)|
 
 ## Not tried(827)
 
