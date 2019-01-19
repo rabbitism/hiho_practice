@@ -14,7 +14,7 @@ For each case output the sum A+B.
 1 2
 3 4
 ```
-Sample Output
+### Sample Output
 ```
 3
 7
