@@ -11,13 +11,14 @@ Every problem is constructed under an individual project. For projects with stan
 cat input | dotnet run
 ```
 # Problem List
-Updated on 2019-01-18
+Updated on 2019-01-19
 
-## Solved(3)
+## Solved(4)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
-|[1000](http://hihocoder.com/problemset/problem/1000)|A + B|`math` |Lv.1|22991|[1000](/Solutions/1000)|
+|[1000](http://hihocoder.com/problemset/problem/1000)|A + B|`math` |Lv.1|22997|[1000](/Solutions/1000)|
+|[1458](http://hihocoder.com/problemset/problem/1458)|Parentheses Matching||Lv.1|150|[1458](/Solutions/1458)|
 |[1481](http://hihocoder.com/problemset/problem/1481)|出勤记录I||Lv.1|461|[1481](/Solutions/1481)|
 |[1678](http://hihocoder.com/problemset/problem/1678)|版本号排序||Lv.1|117|[1678](/Solutions/1678)|
 
@@ -25,10 +26,10 @@ Updated on 2019-01-18
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
-|[1014](http://hihocoder.com/problemset/problem/1014)|Trie树|`trie` |Lv.2|6618|[1014](/Solutions/1014)|
+|[1014](http://hihocoder.com/problemset/problem/1014)|Trie树|`trie` |Lv.2|6619|[1014](/Solutions/1014)|
 |[1268](http://hihocoder.com/problemset/problem/1268)|九宫||Lv.1|647|[1268](/Solutions/1268)|
 
-## Not tried(827)
+## Not tried(826)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -41,7 +42,7 @@ Updated on 2019-01-18
 |[1037](http://hihocoder.com/problemset/problem/1037)|数字三角形|`dp` |Lv.2|2563||
 |[1038](http://hihocoder.com/problemset/problem/1038)|01背包|`dp` |Lv.2|3435||
 |[1039](http://hihocoder.com/problemset/problem/1039)|字符消除|`strings` |Lv.1|2942||
-|[1040](http://hihocoder.com/problemset/problem/1040)|矩形判断|`geometry` |Lv.2|952||
+|[1040](http://hihocoder.com/problemset/problem/1040)|矩形判断|`geometry` |Lv.2|953||
 |[1041](http://hihocoder.com/problemset/problem/1041)|国庆出游|`trees` `dfs` |Lv.2|629||
 |[1042](http://hihocoder.com/problemset/problem/1042)|跑马圈地|`enumeration` |Lv.2|271||
 |[1043](http://hihocoder.com/problemset/problem/1043)|完全背包|`dp` |Lv.2|2116||
@@ -69,7 +70,7 @@ Updated on 2019-01-18
 |[1067](http://hihocoder.com/problemset/problem/1067)|最近公共祖先·二|`trees` `lca` |Lv.2|598||
 |[1068](http://hihocoder.com/problemset/problem/1068)|RMQ-ST算法|`rmq` |Lv.2|869||
 |[1069](http://hihocoder.com/problemset/problem/1069)|最近公共祖先·三|`trees` `lca` |Lv.2|501||
-|[1070](http://hihocoder.com/problemset/problem/1070)|RMQ问题再临|`enumeration` |Lv.2|622||
+|[1070](http://hihocoder.com/problemset/problem/1070)|RMQ问题再临|`enumeration` |Lv.2|623||
 |[1071](http://hihocoder.com/problemset/problem/1071)|Toy||Lv.4|23||
 |[1072](http://hihocoder.com/problemset/problem/1072)|Guidance||Lv.4|29||
 |[1073](http://hihocoder.com/problemset/problem/1073)|Singles Day||Lv.5|48||
@@ -77,7 +78,7 @@ Updated on 2019-01-18
 |[1075](http://hihocoder.com/problemset/problem/1075)|Little Pony and Alohomora Part III|`combinatorics` `dp` |Lv.4|153||
 |[1076](http://hihocoder.com/problemset/problem/1076)|Chain of AND Operations|`dp` |Lv.4|149||
 |[1077](http://hihocoder.com/problemset/problem/1077)|RMQ问题再临-线段树|`segment tree` |Lv.3|743||
-|[1078](http://hihocoder.com/problemset/problem/1078)|线段树的区间修改|`segment tree` |Lv.3|696||
+|[1078](http://hihocoder.com/problemset/problem/1078)|线段树的区间修改|`segment tree` |Lv.3|697||
 |[1079](http://hihocoder.com/problemset/problem/1079)|离散化|`segment tree` `discretization` |Lv.3|426||
 |[1080](http://hihocoder.com/problemset/problem/1080)|更为复杂的买卖房屋姿势|`segment tree` |Lv.3|364||
 |[1081](http://hihocoder.com/problemset/problem/1081)|最短路径·一|`shortest paths` |Lv.2|1143||
@@ -110,17 +111,17 @@ Updated on 2019-01-18
 |[1108](http://hihocoder.com/problemset/problem/1108)|Troublesome Power Supply|`2-sat` |Lv.3|70||
 |[1109](http://hihocoder.com/problemset/problem/1109)|最小生成树三·堆优化的Prim算法|`mst` `heap` |Lv.2|464||
 |[1110](http://hihocoder.com/problemset/problem/1110)|Regular Expression|`divide and conquer` `dp` |Lv.2|271||
-|[1111](http://hihocoder.com/problemset/problem/1111)|Huffman Code|`combinatorics` |Lv.3|61||
-|[1112](http://hihocoder.com/problemset/problem/1112)|Good Paths on A Tree||Lv.4|31||
-|[1113](http://hihocoder.com/problemset/problem/1113)|Willful Tycoon||Lv.4|13||
-|[1114](http://hihocoder.com/problemset/problem/1114)|小Hi小Ho的惊天大作战：扫雷·一||Lv.2|430||
-|[1115](http://hihocoder.com/problemset/problem/1115)|Nozdormu|`enumeration` `backtracking` |Lv.2|77||
+|[1111](http://hihocoder.com/problemset/problem/1111)|Huffman Code|`combinatorics` |Lv.3|62||
+|[1112](http://hihocoder.com/problemset/problem/1112)|Good Paths on A Tree||Lv.4|32||
+|[1113](http://hihocoder.com/problemset/problem/1113)|Willful Tycoon||Lv.4|14||
+|[1114](http://hihocoder.com/problemset/problem/1114)|小Hi小Ho的惊天大作战：扫雷·一||Lv.2|431||
+|[1115](http://hihocoder.com/problemset/problem/1115)|Nozdormu|`enumeration` `backtracking` |Lv.2|78||
 |[1116](http://hihocoder.com/problemset/problem/1116)|Calc|`segment tree` |Lv.3|161||
-|[1117](http://hihocoder.com/problemset/problem/1117)|Age of War|`dp` `probabilities` |Lv.4|24||
+|[1117](http://hihocoder.com/problemset/problem/1117)|Age of War|`dp` `probabilities` |Lv.4|25||
 |[1118](http://hihocoder.com/problemset/problem/1118)|OTK|`dp` |Lv.5|0||
-|[1119](http://hihocoder.com/problemset/problem/1119)|小Hi小Ho的惊天大作战：扫雷·二||Lv.2|155||
-|[1120](http://hihocoder.com/problemset/problem/1120)|小Hi小Ho的惊天大作战：扫雷·三||Lv.1|191||
-|[1121](http://hihocoder.com/problemset/problem/1121)|二分图一•二分图判定||Lv.1|991||
+|[1119](http://hihocoder.com/problemset/problem/1119)|小Hi小Ho的惊天大作战：扫雷·二||Lv.2|156||
+|[1120](http://hihocoder.com/problemset/problem/1120)|小Hi小Ho的惊天大作战：扫雷·三||Lv.1|192||
+|[1121](http://hihocoder.com/problemset/problem/1121)|二分图一•二分图判定||Lv.1|992||
 |[1122](http://hihocoder.com/problemset/problem/1122)|二分图二•二分图最大匹配之匈牙利算法||Lv.3|495||
 |[1123](http://hihocoder.com/problemset/problem/1123)|Good Pair||Lv.3|198||
 |[1124](http://hihocoder.com/problemset/problem/1124)|Good Matrix||Lv.3|87||
@@ -136,7 +137,7 @@ Updated on 2019-01-18
 |[1139](http://hihocoder.com/problemset/problem/1139)|二分·二分答案||Lv.2|306||
 |[1141](http://hihocoder.com/problemset/problem/1141)|二分·归并排序之逆序对||Lv.2|629||
 |[1142](http://hihocoder.com/problemset/problem/1142)|三分·三分求极值||Lv.2|600||
-|[1143](http://hihocoder.com/problemset/problem/1143)|骨牌覆盖问题·一||Lv.1|1418||
+|[1143](http://hihocoder.com/problemset/problem/1143)|骨牌覆盖问题·一||Lv.1|1419||
 |[1144](http://hihocoder.com/problemset/problem/1144)|01-string||Lv.2|397||
 |[1145](http://hihocoder.com/problemset/problem/1145)|Nichijou||Lv.3|83||
 |[1146](http://hihocoder.com/problemset/problem/1146)|Dark Forest||Lv.4|42||
@@ -157,7 +158,7 @@ Updated on 2019-01-18
 |[1161](http://hihocoder.com/problemset/problem/1161)|XiaoIce||Lv.4|83||
 |[1162](http://hihocoder.com/problemset/problem/1162)|骨牌覆盖问题·三||Lv.2|238||
 |[1163](http://hihocoder.com/problemset/problem/1163)|博弈游戏·Nim游戏||Lv.2|830||
-|[1164](http://hihocoder.com/problemset/problem/1164)|Randomized Fibonacci||Lv.2|405||
+|[1164](http://hihocoder.com/problemset/problem/1164)|Randomized Fibonacci||Lv.2|406||
 |[1165](http://hihocoder.com/problemset/problem/1165)|Yuuka's Puzzle Game||Lv.3|126||
 |[1166](http://hihocoder.com/problemset/problem/1166)|Commutative Algebra||Lv.3|45||
 |[1167](http://hihocoder.com/problemset/problem/1167)|Advanced Theoretical Computer Science||Lv.4|76||
@@ -165,13 +166,13 @@ Updated on 2019-01-18
 |[1169](http://hihocoder.com/problemset/problem/1169)|Game||Lv.4|201||
 |[1170](http://hihocoder.com/problemset/problem/1170)|Robots||Lv.4|209||
 |[1171](http://hihocoder.com/problemset/problem/1171)|City and Magic Tower||Lv.5|64||
-|[1172](http://hihocoder.com/problemset/problem/1172)|博弈游戏·Nim游戏·二||Lv.2|413||
+|[1172](http://hihocoder.com/problemset/problem/1172)|博弈游戏·Nim游戏·二||Lv.2|414||
 |[1173](http://hihocoder.com/problemset/problem/1173)|博弈游戏·Nim游戏·三||Lv.2|271||
 |[1174](http://hihocoder.com/problemset/problem/1174)|拓扑排序·一||Lv.2|773||
 |[1175](http://hihocoder.com/problemset/problem/1175)|拓扑排序·二||Lv.1|708||
 |[1176](http://hihocoder.com/problemset/problem/1176)|欧拉路·一||Lv.2|583||
 |[1177](http://hihocoder.com/problemset/problem/1177)|Straight||Lv.2|247||
-|[1178](http://hihocoder.com/problemset/problem/1178)|Counting||Lv.2|219||
+|[1178](http://hihocoder.com/problemset/problem/1178)|Counting||Lv.2|220||
 |[1179](http://hihocoder.com/problemset/problem/1179)|Finite Game||Lv.3|143||
 |[1180](http://hihocoder.com/problemset/problem/1180)|No Dice||Lv.5|10||
 |[1181](http://hihocoder.com/problemset/problem/1181)|欧拉路·二||Lv.2|448||
@@ -194,7 +195,7 @@ Updated on 2019-01-18
 |[1198](http://hihocoder.com/problemset/problem/1198)|Memory Allocating Algorithm||Lv.2|156||
 |[1199](http://hihocoder.com/problemset/problem/1199)|Tower Defense Game||Lv.3|99||
 |[1200](http://hihocoder.com/problemset/problem/1200)|Increase Charisma Points||Lv.3|35||
-|[1223](http://hihocoder.com/problemset/problem/1223)|Inequality||Lv.1|571||
+|[1223](http://hihocoder.com/problemset/problem/1223)|Inequality||Lv.1|572||
 |[1224](http://hihocoder.com/problemset/problem/1224)|Racing||Lv.2|338||
 |[1225](http://hihocoder.com/problemset/problem/1225)|Sunflower||Lv.4|35||
 |[1226](http://hihocoder.com/problemset/problem/1226)|Elfin||Lv.4|7||
@@ -253,7 +254,7 @@ Updated on 2019-01-18
 |[1284](http://hihocoder.com/problemset/problem/1284)|机会渺茫||Lv.2|538||
 |[1285](http://hihocoder.com/problemset/problem/1285)|智力竞赛||Lv.3|236||
 |[1286](http://hihocoder.com/problemset/problem/1286)|子矩阵求和||Lv.3|37||
-|[1287](http://hihocoder.com/problemset/problem/1287)|数论一·Miller-Rabin质数测试||Lv.2|473||
+|[1287](http://hihocoder.com/problemset/problem/1287)|数论一·Miller-Rabin质数测试||Lv.2|474||
 |[1288](http://hihocoder.com/problemset/problem/1288)|Font Size||Lv.1|3429||
 |[1289](http://hihocoder.com/problemset/problem/1289)|403 Forbidden||Lv.2|687||
 |[1290](http://hihocoder.com/problemset/problem/1290)|Demo Day||Lv.3|975||
@@ -294,7 +295,7 @@ Updated on 2019-01-18
 |[1328](http://hihocoder.com/problemset/problem/1328)|Maze Escape|`shortest paths，bfs` |Lv.2|96||
 |[1329](http://hihocoder.com/problemset/problem/1329)|平衡树·Splay|`balanced search tree` |Lv.3|160||
 |[1330](http://hihocoder.com/problemset/problem/1330)|Array Rearrangement|`combinatorics` |Lv.2|111||
-|[1331](http://hihocoder.com/problemset/problem/1331)|Biinary Numbers|`dp` |Lv.2|132||
+|[1331](http://hihocoder.com/problemset/problem/1331)|Biinary Numbers|`dp` |Lv.2|133||
 |[1332](http://hihocoder.com/problemset/problem/1332)|Basic Arithmetic Calculator|`stack` `divide and conquer` |Lv.2|95||
 |[1333](http://hihocoder.com/problemset/problem/1333)|平衡树·Splay2|`balanced search tree` |Lv.3|91||
 |[1334](http://hihocoder.com/problemset/problem/1334)|Word Construction|`backtracking` |Lv.2|80||
@@ -332,7 +333,7 @@ Updated on 2019-01-18
 |[1366](http://hihocoder.com/problemset/problem/1366)|逆序单词||Lv.2|472||
 |[1367](http://hihocoder.com/problemset/problem/1367)|等式填空||Lv.3|44||
 |[1368](http://hihocoder.com/problemset/problem/1368)|积水的城市2||Lv.3|29||
-|[1369](http://hihocoder.com/problemset/problem/1369)|网络流一·Ford-Fulkerson算法||Lv.3|445||
+|[1369](http://hihocoder.com/problemset/problem/1369)|网络流一·Ford-Fulkerson算法||Lv.3|447||
 |[1370](http://hihocoder.com/problemset/problem/1370)|快乐数字||Lv.2|75||
 |[1371](http://hihocoder.com/problemset/problem/1371)|翻转链表||Lv.2|57||
 |[1372](http://hihocoder.com/problemset/problem/1372)|平方求和||Lv.2|48||
@@ -341,7 +342,7 @@ Updated on 2019-01-18
 |[1375](http://hihocoder.com/problemset/problem/1375)|沙漠之旅||Lv.2|34||
 |[1376](http://hihocoder.com/problemset/problem/1376)|数组去重||Lv.2|90||
 |[1377](http://hihocoder.com/problemset/problem/1377)|设计LRU Cache||Lv.2|20||
-|[1378](http://hihocoder.com/problemset/problem/1378)|网络流二·最大流最小割定理||Lv.3|239||
+|[1378](http://hihocoder.com/problemset/problem/1378)|网络流二·最大流最小割定理||Lv.3|240||
 |[1379](http://hihocoder.com/problemset/problem/1379)|Emulator||Lv.3|142||
 |[1380](http://hihocoder.com/problemset/problem/1380)|Certificate||Lv.3|51||
 |[1381](http://hihocoder.com/problemset/problem/1381)|Little Y's Tree||Lv.4|36||
@@ -356,9 +357,9 @@ Updated on 2019-01-18
 |[1390](http://hihocoder.com/problemset/problem/1390)|Ada's Needle Experiment||Lv.5|2||
 |[1391](http://hihocoder.com/problemset/problem/1391)|Countries||Lv.4|277||
 |[1392](http://hihocoder.com/problemset/problem/1392)|War Chess||Lv.5|60||
-|[1393](http://hihocoder.com/problemset/problem/1393)|网络流三·二分图多重匹配||Lv.3|220||
-|[1394](http://hihocoder.com/problemset/problem/1394)|网络流四·最小路径覆盖||Lv.4|235||
-|[1398](http://hihocoder.com/problemset/problem/1398)|网络流五·最大权闭合子图||Lv.4|188||
+|[1393](http://hihocoder.com/problemset/problem/1393)|网络流三·二分图多重匹配||Lv.3|221||
+|[1394](http://hihocoder.com/problemset/problem/1394)|网络流四·最小路径覆盖||Lv.4|237||
+|[1398](http://hihocoder.com/problemset/problem/1398)|网络流五·最大权闭合子图||Lv.4|191||
 |[1399](http://hihocoder.com/problemset/problem/1399)|Shortening Sequence||Lv.2|3204||
 |[1400](http://hihocoder.com/problemset/problem/1400)|Composition||Lv.3|1166||
 |[1401](http://hihocoder.com/problemset/problem/1401)|Registration Day||Lv.3|382||
@@ -377,11 +378,11 @@ Updated on 2019-01-18
 |[1414](http://hihocoder.com/problemset/problem/1414)|Rikka with Grid||Lv.5|13||
 |[1415](http://hihocoder.com/problemset/problem/1415)|后缀数组三·重复旋律3||Lv.4|226||
 |[1416](http://hihocoder.com/problemset/problem/1416)|Inventory is Full||Lv.2|59||
-|[1417](http://hihocoder.com/problemset/problem/1417)|Total Hamming Distance||Lv.2|63||
+|[1417](http://hihocoder.com/problemset/problem/1417)|Total Hamming Distance||Lv.2|64||
 |[1418](http://hihocoder.com/problemset/problem/1418)|Target Sum||Lv.2|56||
 |[1419](http://hihocoder.com/problemset/problem/1419)|后缀数组四·重复旋律4||Lv.4|140||
 |[1420](http://hihocoder.com/problemset/problem/1420)|Bigint Multiplication ||Lv.2|55||
-|[1421](http://hihocoder.com/problemset/problem/1421)|四叉树||Lv.3|63||
+|[1421](http://hihocoder.com/problemset/problem/1421)|四叉树||Lv.3|64||
 |[1422](http://hihocoder.com/problemset/problem/1422)|Harmonic Matrix Counter||Lv.4|13||
 |[1423](http://hihocoder.com/problemset/problem/1423)|Binary Tree||Lv.5|3||
 |[1424](http://hihocoder.com/problemset/problem/1424)|Asa's Chess Problem||Lv.4|52||
@@ -401,14 +402,14 @@ Updated on 2019-01-18
 |[1438](http://hihocoder.com/problemset/problem/1438)|Gas Stations||Lv.2|47||
 |[1439](http://hihocoder.com/problemset/problem/1439)|Logic Expression Tree||Lv.3|34||
 |[1440](http://hihocoder.com/problemset/problem/1440)|Keywords Filter||Lv.3|30||
-|[1441](http://hihocoder.com/problemset/problem/1441)|后缀自动机一·基本概念||Lv.2|175||
+|[1441](http://hihocoder.com/problemset/problem/1441)|后缀自动机一·基本概念||Lv.2|176||
 |[1442](http://hihocoder.com/problemset/problem/1442)|Smallest Rectangle||Lv.2|43||
 |[1443](http://hihocoder.com/problemset/problem/1443)|Push Button I||Lv.2|55||
 |[1444](http://hihocoder.com/problemset/problem/1444)|Push Button II||Lv.3|41||
-|[1445](http://hihocoder.com/problemset/problem/1445)|后缀自动机二·重复旋律5||Lv.4|377||
+|[1445](http://hihocoder.com/problemset/problem/1445)|后缀自动机二·重复旋律5||Lv.4|378||
 |[1446](http://hihocoder.com/problemset/problem/1446)|Big Plus||Lv.2|70||
 |[1447](http://hihocoder.com/problemset/problem/1447)|Interval Coverage||Lv.2|53||
-|[1448](http://hihocoder.com/problemset/problem/1448)|Split Array||Lv.2|51||
+|[1448](http://hihocoder.com/problemset/problem/1448)|Split Array||Lv.2|52||
 |[1449](http://hihocoder.com/problemset/problem/1449)|后缀自动机三·重复旋律6||Lv.4|306||
 |[1450](http://hihocoder.com/problemset/problem/1450)|Inside Triangle||Lv.2|62||
 |[1451](http://hihocoder.com/problemset/problem/1451)|Ctrl-C Ctrl-V||Lv.2|40||
@@ -416,9 +417,8 @@ Updated on 2019-01-18
 |[1453](http://hihocoder.com/problemset/problem/1453)|Rikka with Tree||Lv.3|171||
 |[1454](http://hihocoder.com/problemset/problem/1454)|Rikka with Tree II||Lv.4|95||
 |[1455](http://hihocoder.com/problemset/problem/1455)|Rikka with Tree III||Lv.4|35||
-|[1456](http://hihocoder.com/problemset/problem/1456)|Rikka with Lattice||Lv.5|13||
+|[1456](http://hihocoder.com/problemset/problem/1456)|Rikka with Lattice||Lv.5|14||
 |[1457](http://hihocoder.com/problemset/problem/1457)|后缀自动机四·重复旋律7||Lv.1|227||
-|[1458](http://hihocoder.com/problemset/problem/1458)|Parentheses Matching||Lv.1|149||
 |[1459](http://hihocoder.com/problemset/problem/1459)|Same Letters In A Row||Lv.2|45||
 |[1460](http://hihocoder.com/problemset/problem/1460)|Smallest Substring||Lv.3|52||
 |[1461](http://hihocoder.com/problemset/problem/1461)|Rikka with Number||Lv.3|91||
@@ -551,7 +551,7 @@ Updated on 2019-01-18
 |[1589](http://hihocoder.com/problemset/problem/1589)|回文子串的数量||Lv.2|80||
 |[1590](http://hihocoder.com/problemset/problem/1590)|紧张的会议室||Lv.3|43||
 |[1591](http://hihocoder.com/problemset/problem/1591)|锦标赛||Lv.3|16||
-|[1595](http://hihocoder.com/problemset/problem/1595)|Numbers||Lv.3|159||
+|[1595](http://hihocoder.com/problemset/problem/1595)|Numbers||Lv.3|160||
 |[1596](http://hihocoder.com/problemset/problem/1596)|Beautiful Sequence||Lv.4|79||
 |[1597](http://hihocoder.com/problemset/problem/1597)|Good 01-Sequence||Lv.4|12||
 |[1598](http://hihocoder.com/problemset/problem/1598)|K-Beautiful Tree||Lv.5|3||
@@ -817,17 +817,17 @@ Updated on 2019-01-18
 |[1867](http://hihocoder.com/problemset/problem/1867)|GCD||Lv.4|14||
 |[1868](http://hihocoder.com/problemset/problem/1868)|Dominos||Lv.5|1||
 |[1869](http://hihocoder.com/problemset/problem/1869)|Items||Lv.5|9||
-|[1870](http://hihocoder.com/problemset/problem/1870)|Jin Yong’s Wukong Ranking List||Lv.3|123||
+|[1870](http://hihocoder.com/problemset/problem/1870)|Jin Yong’s Wukong Ranking List||Lv.3|125||
 |[1871](http://hihocoder.com/problemset/problem/1871)|Heshen's Account Book||Lv.3|58||
 |[1872](http://hihocoder.com/problemset/problem/1872)|Pythagorean triple||Lv.5|13||
 |[1873](http://hihocoder.com/problemset/problem/1873)|Frog and Portal||Lv.3|82||
 |[1874](http://hihocoder.com/problemset/problem/1874)|Xor 2||Lv.5|2||
 |[1875](http://hihocoder.com/problemset/problem/1875)|The Kth Largest Value||Lv.5|10||
 |[1876](http://hihocoder.com/problemset/problem/1876)|Solving Equations is Easy||Lv.5|5||
-|[1877](http://hihocoder.com/problemset/problem/1877)|Approximate Matching||Lv.5|37||
+|[1877](http://hihocoder.com/problemset/problem/1877)|Approximate Matching||Lv.5|38||
 |[1878](http://hihocoder.com/problemset/problem/1878)|Palindromes||Lv.5|75||
 |[1879](http://hihocoder.com/problemset/problem/1879)|Rikka with Triangles||Lv.5|16||
-|[1880](http://hihocoder.com/problemset/problem/1880)|地铁环线||Lv.1|42||
+|[1880](http://hihocoder.com/problemset/problem/1880)|地铁环线||Lv.1|43||
 |[1881](http://hihocoder.com/problemset/problem/1881)|特殊任务||Lv.2|27||
 |[1882](http://hihocoder.com/problemset/problem/1882)|播放列表||Lv.3|28||
 |[1883](http://hihocoder.com/problemset/problem/1883)|生成树问题||Lv.3|10||
@@ -849,13 +849,13 @@ Updated on 2019-01-18
 |[1899](http://hihocoder.com/problemset/problem/1899)|收集贴纸||Lv.3|6||
 |[1900](http://hihocoder.com/problemset/problem/1900)|奇偶交错排列||Lv.1|34||
 |[1901](http://hihocoder.com/problemset/problem/1901)|增加得分||Lv.2|21||
-|[1902](http://hihocoder.com/problemset/problem/1902)|字符替换||Lv.3|18||
+|[1902](http://hihocoder.com/problemset/problem/1902)|字符替换||Lv.3|19||
 |[1903](http://hihocoder.com/problemset/problem/1903)|编程课奖励||Lv.3|22||
 |[1904](http://hihocoder.com/problemset/problem/1904)|都8102年了||Lv.1|37||
 |[1905](http://hihocoder.com/problemset/problem/1905)|地形高度||Lv.2|21||
 |[1906](http://hihocoder.com/problemset/problem/1906)|区间求并||Lv.2|14||
 |[1907](http://hihocoder.com/problemset/problem/1907)|奇偶交错排列2||Lv.3|9||
-|[1913](http://hihocoder.com/problemset/problem/1913)|星球人口||Lv.1|19||
+|[1913](http://hihocoder.com/problemset/problem/1913)|星球人口||Lv.1|20||
 |[1914](http://hihocoder.com/problemset/problem/1914)|航班座位||Lv.1|21||
 |[1915](http://hihocoder.com/problemset/problem/1915)|取数游戏||Lv.2|13||
 |[1916](http://hihocoder.com/problemset/problem/1916)|循环复杂度||Lv.3|8||
