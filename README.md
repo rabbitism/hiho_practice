@@ -13,13 +13,14 @@ cat input | dotnet run
 # Problem List
 Updated on 2019-01-19
 
-## Solved(5)
+## Solved(6)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
 |[1000](http://hihocoder.com/problemset/problem/1000)|A + B|`math` |Lv.1|22997|[1000](/Solutions/1000)|
 |[1458](http://hihocoder.com/problemset/problem/1458)|Parentheses Matching||Lv.1|150|[1458](/Solutions/1458)|
 |[1481](http://hihocoder.com/problemset/problem/1481)|出勤记录I||Lv.1|461|[1481](/Solutions/1481)|
+|[1522](http://hihocoder.com/problemset/problem/1522)|F1 Score||Lv.1|242|[1522](/Solutions/1522)|
 |[1603](http://hihocoder.com/problemset/problem/1603)|提取用户名||Lv.1|190|[1603](/Solutions/1603)|
 |[1678](http://hihocoder.com/problemset/problem/1678)|版本号排序||Lv.1|117|[1678](/Solutions/1678)|
 
@@ -31,7 +32,7 @@ Updated on 2019-01-19
 |[1268](http://hihocoder.com/problemset/problem/1268)|九宫||Lv.1|647|[1268](/Solutions/1268)|
 |[1784](http://hihocoder.com/problemset/problem/1784)|传输数据||Lv.1|89|[1784](/Solutions/1784)|
 
-## Not tried(824)
+## Not tried(823)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -483,7 +484,6 @@ Updated on 2019-01-19
 |[1519](http://hihocoder.com/problemset/problem/1519)|逃离迷宫II||Lv.2|114||
 |[1520](http://hihocoder.com/problemset/problem/1520)|古老数字||Lv.3|47||
 |[1521](http://hihocoder.com/problemset/problem/1521)|矩阵游戏||Lv.4|9||
-|[1522](http://hihocoder.com/problemset/problem/1522)|F1 Score||Lv.1|241||
 |[1523](http://hihocoder.com/problemset/problem/1523)|数组重排2||Lv.1|244||
 |[1524](http://hihocoder.com/problemset/problem/1524)|逆序对||Lv.2|197||
 |[1525](http://hihocoder.com/problemset/problem/1525)|逃离迷宫3||Lv.3|19||
