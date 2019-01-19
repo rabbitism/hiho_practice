@@ -13,23 +13,25 @@ cat input | dotnet run
 # Problem List
 Updated on 2019-01-19
 
-## Solved(4)
+## Solved(5)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
 |[1000](http://hihocoder.com/problemset/problem/1000)|A + B|`math` |Lv.1|22997|[1000](/Solutions/1000)|
 |[1458](http://hihocoder.com/problemset/problem/1458)|Parentheses Matching||Lv.1|150|[1458](/Solutions/1458)|
 |[1481](http://hihocoder.com/problemset/problem/1481)|出勤记录I||Lv.1|461|[1481](/Solutions/1481)|
+|[1603](http://hihocoder.com/problemset/problem/1603)|提取用户名||Lv.1|190|[1603](/Solutions/1603)|
 |[1678](http://hihocoder.com/problemset/problem/1678)|版本号排序||Lv.1|117|[1678](/Solutions/1678)|
 
-## Tried, but not solved(2)
+## Tried, but not solved(3)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
 |[1014](http://hihocoder.com/problemset/problem/1014)|Trie树|`trie` |Lv.2|6619|[1014](/Solutions/1014)|
 |[1268](http://hihocoder.com/problemset/problem/1268)|九宫||Lv.1|647|[1268](/Solutions/1268)|
+|[1784](http://hihocoder.com/problemset/problem/1784)|传输数据||Lv.1|89|[1784](/Solutions/1784)|
 
-## Not tried(826)
+## Not tried(824)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -81,7 +83,7 @@ Updated on 2019-01-19
 |[1078](http://hihocoder.com/problemset/problem/1078)|线段树的区间修改|`segment tree` |Lv.3|697||
 |[1079](http://hihocoder.com/problemset/problem/1079)|离散化|`segment tree` `discretization` |Lv.3|426||
 |[1080](http://hihocoder.com/problemset/problem/1080)|更为复杂的买卖房屋姿势|`segment tree` |Lv.3|364||
-|[1081](http://hihocoder.com/problemset/problem/1081)|最短路径·一|`shortest paths` |Lv.2|1143||
+|[1081](http://hihocoder.com/problemset/problem/1081)|最短路径·一|`shortest paths` |Lv.2|1144||
 |[1082](http://hihocoder.com/problemset/problem/1082)|The Marshtomp has seen it all before|`strings` |Lv.1|2145||
 |[1083](http://hihocoder.com/problemset/problem/1083)|Integral|`geometry` |Lv.3|81||
 |[1084](http://hihocoder.com/problemset/problem/1084)|Extend KMP|`suffix tree` |Lv.4|112||
@@ -89,7 +91,7 @@ Updated on 2019-01-19
 |[1086](http://hihocoder.com/problemset/problem/1086)|Browser Caching|`hash` |Lv.2|366||
 |[1087](http://hihocoder.com/problemset/problem/1087)|Hamiltonian Cycle|`bitmasking` `dp` |Lv.2|161||
 |[1088](http://hihocoder.com/problemset/problem/1088)|Right-click Context Menu|`trees` `dfs` |Lv.3|58||
-|[1089](http://hihocoder.com/problemset/problem/1089)|最短路径·二：Floyd算法|`shortest paths` |Lv.2|1113||
+|[1089](http://hihocoder.com/problemset/problem/1089)|最短路径·二：Floyd算法|`shortest paths` |Lv.2|1114||
 |[1090](http://hihocoder.com/problemset/problem/1090)|Highway|`math` |Lv.2|83||
 |[1091](http://hihocoder.com/problemset/problem/1091)|Clicker|`dp` |Lv.3|141||
 |[1092](http://hihocoder.com/problemset/problem/1092)|Have Lunch Together|`shortest paths` |Lv.2|167||
@@ -559,7 +561,6 @@ Updated on 2019-01-19
 |[1600](http://hihocoder.com/problemset/problem/1600)|料理次元||Lv.2|12||
 |[1601](http://hihocoder.com/problemset/problem/1601)|最大得分||Lv.3|80||
 |[1602](http://hihocoder.com/problemset/problem/1602)|本质不同的回文子串的数量||Lv.4|60||
-|[1603](http://hihocoder.com/problemset/problem/1603)|提取用户名||Lv.1|189||
 |[1604](http://hihocoder.com/problemset/problem/1604)|股票价格II||Lv.2|157||
 |[1605](http://hihocoder.com/problemset/problem/1605)|小Hi的生成树计数||Lv.3|88||
 |[1606](http://hihocoder.com/problemset/problem/1606)|小Hi和小Ho的密码||Lv.3|15||
@@ -731,7 +732,6 @@ Updated on 2019-01-19
 |[1781](http://hihocoder.com/problemset/problem/1781)|Another Bubble Sort||Lv.4|53||
 |[1782](http://hihocoder.com/problemset/problem/1782)|Another Challenge||Lv.4|6||
 |[1783](http://hihocoder.com/problemset/problem/1783)|Another Duplicate Counting||Lv.5|3||
-|[1784](http://hihocoder.com/problemset/problem/1784)|传输数据||Lv.1|89||
 |[1785](http://hihocoder.com/problemset/problem/1785)|数字游戏2||Lv.2|59||
 |[1786](http://hihocoder.com/problemset/problem/1786)|跳石头||Lv.2|69||
 |[1787](http://hihocoder.com/problemset/problem/1787)|道路建设||Lv.3|45||
