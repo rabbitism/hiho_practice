@@ -11,7 +11,7 @@ Every problem is constructed under an individual project. For projects with stan
 cat input | dotnet run
 ```
 # Problem List
-Updated on 2019-01-19
+Updated on 2019-01-20
 
 ## Solved(7)
 
@@ -25,15 +25,17 @@ Updated on 2019-01-19
 |[1603](http://hihocoder.com/problemset/problem/1603)|提取用户名||Lv.1|190|[1603](/Solutions/1603)|
 |[1678](http://hihocoder.com/problemset/problem/1678)|版本号排序||Lv.1|117|[1678](/Solutions/1678)|
 
-## Tried, but not solved(3)
+## Tried, but not solved(5)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
 |[1014](http://hihocoder.com/problemset/problem/1014)|Trie树|`trie` |Lv.2|6619|[1014](/Solutions/1014)|
+|[1061](http://hihocoder.com/problemset/problem/1061)|Beautiful String||Lv.2|1263|[1061](/Solutions/1061)|
 |[1268](http://hihocoder.com/problemset/problem/1268)|九宫||Lv.1|647|[1268](/Solutions/1268)|
+|[1641](http://hihocoder.com/problemset/problem/1641)|热门号码||Lv.1|122|[1641](/Solutions/1641)|
 |[1784](http://hihocoder.com/problemset/problem/1784)|传输数据||Lv.1|89|[1784](/Solutions/1784)|
 
-## Not tried(822)
+## Not tried(820)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -65,7 +67,6 @@ Updated on 2019-01-19
 |[1057](http://hihocoder.com/problemset/problem/1057)|Performance Log||Lv.2|492||
 |[1058](http://hihocoder.com/problemset/problem/1058)|Combination Lock||Lv.3|91||
 |[1059](http://hihocoder.com/problemset/problem/1059)|String Matching Content Length||Lv.2|357||
-|[1061](http://hihocoder.com/problemset/problem/1061)|Beautiful String||Lv.2|1263||
 |[1062](http://hihocoder.com/problemset/problem/1062)|最近公共祖先·一|`trees` `lca` |Lv.2|956||
 |[1063](http://hihocoder.com/problemset/problem/1063)|Travel on a Tree|`dp tree` |Lv.4|143||
 |[1064](http://hihocoder.com/problemset/problem/1064)|Circle|`geometry` |Lv.4|76||
@@ -82,7 +83,7 @@ Updated on 2019-01-19
 |[1075](http://hihocoder.com/problemset/problem/1075)|Little Pony and Alohomora Part III|`combinatorics` `dp` |Lv.4|153||
 |[1076](http://hihocoder.com/problemset/problem/1076)|Chain of AND Operations|`dp` |Lv.4|149||
 |[1077](http://hihocoder.com/problemset/problem/1077)|RMQ问题再临-线段树|`segment tree` |Lv.3|745||
-|[1078](http://hihocoder.com/problemset/problem/1078)|线段树的区间修改|`segment tree` |Lv.3|697||
+|[1078](http://hihocoder.com/problemset/problem/1078)|线段树的区间修改|`segment tree` |Lv.3|698||
 |[1079](http://hihocoder.com/problemset/problem/1079)|离散化|`segment tree` `discretization` |Lv.3|426||
 |[1080](http://hihocoder.com/problemset/problem/1080)|更为复杂的买卖房屋姿势|`segment tree` |Lv.3|364||
 |[1081](http://hihocoder.com/problemset/problem/1081)|最短路径·一|`shortest paths` |Lv.2|1144||
@@ -598,7 +599,6 @@ Updated on 2019-01-19
 |[1638](http://hihocoder.com/problemset/problem/1638)|小Hi的天平||Lv.2|47||
 |[1639](http://hihocoder.com/problemset/problem/1639)|图书馆||Lv.3|15||
 |[1640](http://hihocoder.com/problemset/problem/1640)|命名的烦恼||Lv.3|24||
-|[1641](http://hihocoder.com/problemset/problem/1641)|热门号码||Lv.1|122||
 |[1642](http://hihocoder.com/problemset/problem/1642)|三角形面积和||Lv.1|65||
 |[1643](http://hihocoder.com/problemset/problem/1643)|最少换乘||Lv.3|47||
 |[1644](http://hihocoder.com/problemset/problem/1644)|完美命名的烦恼||Lv.3|22||
