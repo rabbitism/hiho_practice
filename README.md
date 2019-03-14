@@ -7,38 +7,42 @@ This is an archive repository for hihocoder questions and my solutions.
 ## How to use
 Every problem is constructed under an individual project. For projects with standard input, sample input has been already stored in corresponding file with name `input`. You can use it with following command:
 
-```csharp
+```
 cat input | dotnet run
 ```
 # Problem List
 Updated on 2019-03-14
 
-## Solved(8)
+## Solved(14)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
-|[1000](http://hihocoder.com/problemset/problem/1000)|A + B|`math` |Lv.1|23240|[1000](/Solutions/1000)|
+|[1000](http://hihocoder.com/problemset/problem/1000)|A + B|`math` |Lv.1|23241|[1000](/Solutions/1000)|
+|[1288](http://hihocoder.com/problemset/problem/1288)|Font Size||Lv.1|3433|[1288](/Solutions/1288)|
 |[1361](http://hihocoder.com/problemset/problem/1361)|Playfair密码表||Lv.1|531|[1361](/Solutions/1361)|
 |[1458](http://hihocoder.com/problemset/problem/1458)|Parentheses Matching||Lv.1|150|[1458](/Solutions/1458)|
 |[1481](http://hihocoder.com/problemset/problem/1481)|出勤记录I||Lv.1|471|[1481](/Solutions/1481)|
+|[1501](http://hihocoder.com/problemset/problem/1501)|风格不统一如何写程序||Lv.1|449|[1501](/Solutions/1501)|
 |[1522](http://hihocoder.com/problemset/problem/1522)|F1 Score||Lv.1|243|[1522](/Solutions/1522)|
 |[1603](http://hihocoder.com/problemset/problem/1603)|提取用户名||Lv.1|191|[1603](/Solutions/1603)|
+|[1615](http://hihocoder.com/problemset/problem/1615)|矩阵游戏II||Lv.1|138|[1615](/Solutions/1615)|
 |[1678](http://hihocoder.com/problemset/problem/1678)|版本号排序||Lv.1|118|[1678](/Solutions/1678)|
+|[1682](http://hihocoder.com/problemset/problem/1682)|扫雷游戏||Lv.1|135|[1682](/Solutions/1682)|
+|[1761](http://hihocoder.com/problemset/problem/1761)|洗牌||Lv.1|56|[1761](/Solutions/1761)|
 |[1820](http://hihocoder.com/problemset/problem/1820)|切割木棒||Lv.1|64|[1820](/Solutions/1820)|
+|[1928](http://hihocoder.com/problemset/problem/1928)|方格矩阵高度||Lv.1|47|[1928](/Solutions/1928)|
 
-## Tried, but not solved(7)
+## Tried, but not solved(5)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
 |[1014](http://hihocoder.com/problemset/problem/1014)|Trie树|`trie` |Lv.2|6656|[1014](/Solutions/1014)|
 |[1061](http://hihocoder.com/problemset/problem/1061)|Beautiful String||Lv.2|1263|[1061](/Solutions/1061)|
 |[1268](http://hihocoder.com/problemset/problem/1268)|九宫||Lv.1|651|[1268](/Solutions/1268)|
-|[1288](http://hihocoder.com/problemset/problem/1288)|Font Size||Lv.1|3433|[1288](/Solutions/1288)|
 |[1641](http://hihocoder.com/problemset/problem/1641)|热门号码||Lv.1|123|[1641](/Solutions/1641)|
-|[1761](http://hihocoder.com/problemset/problem/1761)|洗牌||Lv.1|56|[1761](/Solutions/1761)|
 |[1784](http://hihocoder.com/problemset/problem/1784)|传输数据||Lv.1|90|[1784](/Solutions/1784)|
 
-## Not tried(840)
+## Not tried(836)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -466,7 +470,6 @@ Updated on 2019-03-14
 |[1498](http://hihocoder.com/problemset/problem/1498)|Diligent Robots||Lv.2|485||
 |[1499](http://hihocoder.com/problemset/problem/1499)|A Box of Coins||Lv.3|193||
 |[1500](http://hihocoder.com/problemset/problem/1500)|EL SUENO||Lv.3|93||
-|[1501](http://hihocoder.com/problemset/problem/1501)|风格不统一如何写程序||Lv.1|449||
 |[1502](http://hihocoder.com/problemset/problem/1502)|最大子矩阵||Lv.2|229||
 |[1503](http://hihocoder.com/problemset/problem/1503)|一人麻将||Lv.2|71||
 |[1504](http://hihocoder.com/problemset/problem/1504)|骑士游历||Lv.3|121||
@@ -575,7 +578,6 @@ Updated on 2019-03-14
 |[1612](http://hihocoder.com/problemset/problem/1612)|候选人追踪||Lv.2|26||
 |[1613](http://hihocoder.com/problemset/problem/1613)|墨水滴||Lv.3|61||
 |[1614](http://hihocoder.com/problemset/problem/1614)|鱼形子图计数||Lv.3|16||
-|[1615](http://hihocoder.com/problemset/problem/1615)|矩阵游戏II||Lv.1|137||
 |[1616](http://hihocoder.com/problemset/problem/1616)|是二叉搜索树吗？||Lv.2|37||
 |[1617](http://hihocoder.com/problemset/problem/1617)|方格取数||Lv.3|62||
 |[1618](http://hihocoder.com/problemset/problem/1618)|单词接龙||Lv.3|20||
@@ -633,7 +635,6 @@ Updated on 2019-03-14
 |[1679](http://hihocoder.com/problemset/problem/1679)|自底向上遍历二叉树||Lv.2|72||
 |[1680](http://hihocoder.com/problemset/problem/1680)|hiho字符串2||Lv.3|53||
 |[1681](http://hihocoder.com/problemset/problem/1681)|最长多数子串||Lv.4|22||
-|[1682](http://hihocoder.com/problemset/problem/1682)|扫雷游戏||Lv.1|135||
 |[1683](http://hihocoder.com/problemset/problem/1683)|切分短信||Lv.2|30||
 |[1684](http://hihocoder.com/problemset/problem/1684)|车队||Lv.3|87||
 |[1685](http://hihocoder.com/problemset/problem/1685)|最大子矩阵2||Lv.3|31||
@@ -872,7 +873,6 @@ Updated on 2019-03-14
 |[1925](http://hihocoder.com/problemset/problem/1925)|古代信使||Lv.2|19||
 |[1926](http://hihocoder.com/problemset/problem/1926)|逆序对计数||Lv.3|22||
 |[1927](http://hihocoder.com/problemset/problem/1927)|交错01串||Lv.1|34||
-|[1928](http://hihocoder.com/problemset/problem/1928)|方格矩阵高度||Lv.1|47||
 |[1929](http://hihocoder.com/problemset/problem/1929)|数对||Lv.2|43||
 |[1930](http://hihocoder.com/problemset/problem/1930)|修整土地||Lv.3|12||
 |[1931](http://hihocoder.com/problemset/problem/1931)|最短管道距离||Lv.1|58||
