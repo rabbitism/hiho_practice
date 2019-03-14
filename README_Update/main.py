@@ -36,7 +36,7 @@ def generate(result:dict):
         f.writelines(r".Net Core 2.1.403"+"\n\n")
         f.writelines(r"## How to use"+"\n")
         f.writelines(r"Every problem is constructed under an individual project. For projects with standard input, sample input has been already stored in corresponding file with name `input`. You can use it with following command:"+"\n\n")
-        f.writelines(r"```csharp"+"\n"+r"cat input | dotnet run"+"\n```"+"\n")
+        f.writelines(r"```"+"\n"+r"cat input | dotnet run"+"\n```"+"\n")
         f.writelines(r"# Problem List"+"\n")
         f.writelines(r"Updated on "+time.strftime("%Y-%m-%d", time.localtime())+"\n")
         statusSum = {}
