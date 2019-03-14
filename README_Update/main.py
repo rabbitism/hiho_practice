@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import time
 
 def load_content():
-    htmlf = open("source.html", 'r', encoding="utf-8")
+    htmlf = open("./README_Update/source.html", 'r', encoding="utf-8")
     htmlcontent = htmlf.read()
     return htmlcontent
 
@@ -29,7 +29,7 @@ def parse(content:str):
     return result
 
 def generate(result:dict):
-    with open("README.MD", 'w', encoding='utf-8') as f:
+    with open("./README.MD", 'w', encoding='utf-8') as f:
         f.writelines(r"# HihoCoder Practice Archive"+"\n\n")
         f.writelines(r"This is an archive repository for hihocoder questions and my solutions."+"\n")
         f.writelines(r"## Environment"+"\n")
