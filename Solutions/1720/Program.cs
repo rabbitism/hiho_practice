@@ -8,36 +8,32 @@ namespace _1720
     {
         static void Main(string[] args)
         {
-            string[] input = Console.ReadLine().Split(' ');
-            int dividend = Int32.Parse(input[0]);
-            int divider = Int32.Parse(input[1]);
-            List<int> list= new List<int>();
+            string[] numbers = Console.ReadLine().Split();
+            int dividend = int.Parse(numbers[0])*10;
+            int divider = int.Parse(numbers[1]);
+            HashSet<int> hs = new HashSet<int>();
+            HashSet<int> result = new HashSet<int>();
             while(true)
             {
-                while(dividend/divider==0)
+                int q = dividend/divider;
+                int r = dividend%divider;
+                result.Add(q);
+                if(hs.Contains(r)) break;
+                else hs.Add(r);
+                if(r==0) break;
+                if(r*10<divider) result.Add(0);
+                while(r<divider)
                 {
-                    dividend*=10;
+                    r*=10;
                 }
-                int result = dividend/divider;
-                int residue = dividend%divider;
-                if(list.Contains(result))
-                {
-                    break;
-                }
-                else
-                {
-                    list.Add(result);
-                    dividend = residue;
-                }
-                if(residue == 0) break;
+                dividend=r;
             }
+            List<int> list = new List<int>(result);
             list.Sort();
-            StringBuilder sb = new StringBuilder();
-            for(int i = 0; i< list.Count; i++)
+            foreach(var element in list)
             {
-                sb.Append(i.ToString());
+                System.Console.Write(element);
             }
-            System.Console.WriteLine(sb.ToString());
         }
     }
 }
