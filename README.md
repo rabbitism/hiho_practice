@@ -40,7 +40,7 @@ Updated on 2019-03-15
 |[1888](http://hihocoder.com/problemset/problem/1888)|货运费用||Lv.1|49|[1888](/Solutions/1888)|
 |[1928](http://hihocoder.com/problemset/problem/1928)|方格矩阵高度||Lv.1|47|[1928](/Solutions/1928)|
 
-## Tried, but not solved(8)
+## Tried, but not solved(9)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -52,8 +52,9 @@ Updated on 2019-03-15
 |[1641](http://hihocoder.com/problemset/problem/1641)|热门号码||Lv.1|123|[1641](/Solutions/1641)|
 |[1642](http://hihocoder.com/problemset/problem/1642)|三角形面积和||Lv.1|65|[1642](/Solutions/1642)|
 |[1784](http://hihocoder.com/problemset/problem/1784)|传输数据||Lv.1|90|[1784](/Solutions/1784)|
+|[1889](http://hihocoder.com/problemset/problem/1889)|炸弹人||Lv.2|21|[1889](/Solutions/1889)|
 
-## Not tried(825)
+## Not tried(824)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -120,7 +121,7 @@ Updated on 2019-03-15
 |[1095](http://hihocoder.com/problemset/problem/1095)|HIHO Drinking Game|`binary search` |Lv.2|226||
 |[1096](http://hihocoder.com/problemset/problem/1096)|Divided Product|`dp` |Lv.3|205||
 |[1097](http://hihocoder.com/problemset/problem/1097)|最小生成树一·Prim算法|`mst` |Lv.2|949||
-|[1098](http://hihocoder.com/problemset/problem/1098)|最小生成树二·Kruscal算法|`mst` |Lv.2|791||
+|[1098](http://hihocoder.com/problemset/problem/1098)|最小生成树二·Kruscal算法|`mst` |Lv.2|792||
 |[1099](http://hihocoder.com/problemset/problem/1099)|Constellations|`enumeration` |Lv.2|113||
 |[1100](http://hihocoder.com/problemset/problem/1100)|Disk Storage|`constructive algorithms` |Lv.3|71||
 |[1101](http://hihocoder.com/problemset/problem/1101)|Arithmetic Puzzles|`backtracking` `pruning` |Lv.4|16||
@@ -167,7 +168,7 @@ Updated on 2019-03-15
 |[1148](http://hihocoder.com/problemset/problem/1148)|February 29||Lv.1|3414||
 |[1149](http://hihocoder.com/problemset/problem/1149)|Palindrome||Lv.2|911||
 |[1150](http://hihocoder.com/problemset/problem/1150)|Base Station||Lv.3|418||
-|[1151](http://hihocoder.com/problemset/problem/1151)|骨牌覆盖问题·二||Lv.2|503||
+|[1151](http://hihocoder.com/problemset/problem/1151)|骨牌覆盖问题·二||Lv.2|504||
 |[1152](http://hihocoder.com/problemset/problem/1152)|Lucky Substrings||Lv.1|1266||
 |[1153](http://hihocoder.com/problemset/problem/1153)|Numeric Keypad||Lv.2|354||
 |[1154](http://hihocoder.com/problemset/problem/1154)|Spring Outing||Lv.3|172||
@@ -423,7 +424,7 @@ Updated on 2019-03-15
 |[1442](http://hihocoder.com/problemset/problem/1442)|Smallest Rectangle||Lv.2|43||
 |[1443](http://hihocoder.com/problemset/problem/1443)|Push Button I||Lv.2|55||
 |[1444](http://hihocoder.com/problemset/problem/1444)|Push Button II||Lv.3|41||
-|[1445](http://hihocoder.com/problemset/problem/1445)|后缀自动机二·重复旋律5||Lv.4|417||
+|[1445](http://hihocoder.com/problemset/problem/1445)|后缀自动机二·重复旋律5||Lv.4|418||
 |[1446](http://hihocoder.com/problemset/problem/1446)|Big Plus||Lv.2|71||
 |[1447](http://hihocoder.com/problemset/problem/1447)|Interval Coverage||Lv.2|53||
 |[1448](http://hihocoder.com/problemset/problem/1448)|Split Array||Lv.2|52||
@@ -462,10 +463,10 @@ Updated on 2019-03-15
 |[1483](http://hihocoder.com/problemset/problem/1483)| 区间价值||Lv.3|118||
 |[1484](http://hihocoder.com/problemset/problem/1484)|手势识别||Lv.3|16||
 |[1485](http://hihocoder.com/problemset/problem/1485)|hiho字符串||Lv.1|353||
-|[1486](http://hihocoder.com/problemset/problem/1486)|物品价值||Lv.2|211||
-|[1487](http://hihocoder.com/problemset/problem/1487)|岛屿3||Lv.2|192||
+|[1486](http://hihocoder.com/problemset/problem/1486)|物品价值||Lv.2|212||
+|[1487](http://hihocoder.com/problemset/problem/1487)|岛屿3||Lv.2|193||
 |[1488](http://hihocoder.com/problemset/problem/1488)|排队接水||Lv.4|75||
-|[1489](http://hihocoder.com/problemset/problem/1489)|Legendary Items||Lv.2|647||
+|[1489](http://hihocoder.com/problemset/problem/1489)|Legendary Items||Lv.2|648||
 |[1490](http://hihocoder.com/problemset/problem/1490)|Tree Restoration||Lv.2|351||
 |[1491](http://hihocoder.com/problemset/problem/1491)|Monster Killing||Lv.3|39||
 |[1492](http://hihocoder.com/problemset/problem/1492)|Parentheses Sequence||Lv.3|75||
@@ -837,7 +838,6 @@ Updated on 2019-03-15
 |[1885](http://hihocoder.com/problemset/problem/1885)|飞行路线||Lv.2|21||
 |[1886](http://hihocoder.com/problemset/problem/1886)|中位数2||Lv.3|15||
 |[1887](http://hihocoder.com/problemset/problem/1887)|圈地游戏||Lv.4|5||
-|[1889](http://hihocoder.com/problemset/problem/1889)|炸弹人||Lv.2|21||
 |[1890](http://hihocoder.com/problemset/problem/1890)|多维数组||Lv.2|25||
 |[1891](http://hihocoder.com/problemset/problem/1891)|括号序列2||Lv.3|12||
 |[1892](http://hihocoder.com/problemset/problem/1892)|修改字符串||Lv.1|36||
@@ -879,6 +879,6 @@ Updated on 2019-03-15
 |[1932](http://hihocoder.com/problemset/problem/1932)|字符删除||Lv.2|42||
 |[1933](http://hihocoder.com/problemset/problem/1933)|最短管道距离2||Lv.3|11||
 |[1934](http://hihocoder.com/problemset/problem/1934)|木板刷油漆||Lv.3|44||
-|[1935](http://hihocoder.com/problemset/problem/1935)|浇花问题||Lv.1|52||
+|[1935](http://hihocoder.com/problemset/problem/1935)|浇花问题||Lv.1|53||
 |[1936](http://hihocoder.com/problemset/problem/1936)|连续整数列||Lv.2|29||
 |[1938](http://hihocoder.com/problemset/problem/1938)|还原BST||Lv.3|24||
