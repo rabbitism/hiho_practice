@@ -13,7 +13,7 @@ cat input | dotnet run
 # Problem List
 Updated on 2019-05-06
 
-## Solved(24)
+## Solved(25)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -41,6 +41,7 @@ Updated on 2019-05-06
 |[1888](http://hihocoder.com/problemset/problem/1888)|货运费用||Lv.1|49|[1888](/Solutions/1888)|
 |[1928](http://hihocoder.com/problemset/problem/1928)|方格矩阵高度||Lv.1|49|[1928](/Solutions/1928)|
 |[1959](http://hihocoder.com/problemset/problem/1959)|鱼的战斗||Lv.1|32|[1959](/Solutions/1959)|
+|[1960](http://hihocoder.com/problemset/problem/1960)|奇因子之和||Lv.2|31|[1960](/Solutions/1960)|
 
 ## Tried, but not solved(11)
 
@@ -58,7 +59,7 @@ Updated on 2019-05-06
 |[1784](http://hihocoder.com/problemset/problem/1784)|传输数据||Lv.1|91|[1784](/Solutions/1784)|
 |[1889](http://hihocoder.com/problemset/problem/1889)|炸弹人||Lv.2|22|[1889](/Solutions/1889)|
 
-## Not tried(844)
+## Not tried(843)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -903,6 +904,5 @@ Updated on 2019-05-06
 |[1956](http://hihocoder.com/problemset/problem/1956)|多项式系数||Lv.2|17||
 |[1957](http://hihocoder.com/problemset/problem/1957)|字符统计||Lv.3|15||
 |[1958](http://hihocoder.com/problemset/problem/1958)|有向图的关键点||Lv.3|14||
-|[1960](http://hihocoder.com/problemset/problem/1960)|奇因子之和||Lv.2|30||
 |[1961](http://hihocoder.com/problemset/problem/1961)|选择奏折||Lv.3|22||
 |[1962](http://hihocoder.com/problemset/problem/1962)|紧张的会议室2||Lv.4|7||
