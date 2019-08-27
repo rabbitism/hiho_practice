@@ -13,11 +13,12 @@ cat input | dotnet run
 # Problem List
 Updated on 2019-08-27
 
-## Solved(31)
+## Solved(32)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
-|[1000](http://hihocoder.com/problemset/problem/1000)|A + B|`math` |Lv.1|23694|[1000](/Solutions/1000)|
+|[1000](http://hihocoder.com/problemset/problem/1000)|A + B|`math` |Lv.1|23695|[1000](/Solutions/1000)|
+|[1014](http://hihocoder.com/problemset/problem/1014)|Trie树|`trie` |Lv.2|6792|[1014](/Solutions/1014)|
 |[1066](http://hihocoder.com/problemset/problem/1066)|无间道之并查集|`disjoint set` |Lv.2|1178|[1066](/Solutions/1066)|
 |[1094](http://hihocoder.com/problemset/problem/1094)|Lost in the City|`enumeration` |Lv.1|945|[1094](/Solutions/1094)|
 |[1097](http://hihocoder.com/problemset/problem/1097)|最小生成树一·Prim算法|`mst` |Lv.2|980|[1097](/Solutions/1097)|
@@ -48,23 +49,6 @@ Updated on 2019-08-27
 |[1928](http://hihocoder.com/problemset/problem/1928)|方格矩阵高度||Lv.1|53|[1928](/Solutions/1928)|
 |[1959](http://hihocoder.com/problemset/problem/1959)|鱼的战斗||Lv.1|56|[1959](/Solutions/1959)|
 |[1960](http://hihocoder.com/problemset/problem/1960)|奇因子之和||Lv.2|52|[1960](/Solutions/1960)|
-
-## Tried, but not solved(12)
-
-|ID|Name|Tags|Difficulty|Solved|Solution|
-|:---:|:---|:---|:---:|:---|:---:|
-|[1014](http://hihocoder.com/problemset/problem/1014)|Trie树|`trie` |Lv.2|6791|[1014](/Solutions/1014)|
-|[1052](http://hihocoder.com/problemset/problem/1052)|基因工程|`strings` |Lv.2|603|[1052](/Solutions/1052)|
-|[1061](http://hihocoder.com/problemset/problem/1061)|Beautiful String||Lv.2|1274|[1061](/Solutions/1061)|
-|[1197](http://hihocoder.com/problemset/problem/1197)|Give My Text Back||Lv.1|508|[1197](/Solutions/1197)|
-|[1223](http://hihocoder.com/problemset/problem/1223)|Inequality||Lv.1|587|[1223](/Solutions/1223)|
-|[1268](http://hihocoder.com/problemset/problem/1268)|九宫||Lv.1|660|[1268](/Solutions/1268)|
-|[1335](http://hihocoder.com/problemset/problem/1335)|Email Merge|`data structure` |Lv.2|67|[1335](/Solutions/1335)|
-|[1641](http://hihocoder.com/problemset/problem/1641)|热门号码||Lv.1|125|[1641](/Solutions/1641)|
-|[1642](http://hihocoder.com/problemset/problem/1642)|三角形面积和||Lv.1|67|[1642](/Solutions/1642)|
-|[1784](http://hihocoder.com/problemset/problem/1784)|传输数据||Lv.1|92|[1784](/Solutions/1784)|
-|[1889](http://hihocoder.com/problemset/problem/1889)|炸弹人||Lv.2|22|[1889](/Solutions/1889)|
-|[1961](http://hihocoder.com/problemset/problem/1961)|选择奏折||Lv.3|32|[1961](/Solutions/1961)|
 
 ## Not tried(862)
 
@@ -932,3 +916,19 @@ Updated on 2019-08-27
 |[1986](http://hihocoder.com/problemset/problem/1986)|数列问题||Lv.1|11||
 |[1987](http://hihocoder.com/problemset/problem/1987)|字符串的划分||Lv.3|8||
 |[1988](http://hihocoder.com/problemset/problem/1988)|光线弹射||Lv.4|2||
+
+## Tried, but not solved(11)
+
+|ID|Name|Tags|Difficulty|Solved|Solution|
+|:---:|:---|:---|:---:|:---|:---:|
+|[1052](http://hihocoder.com/problemset/problem/1052)|基因工程|`strings` |Lv.2|603|[1052](/Solutions/1052)|
+|[1061](http://hihocoder.com/problemset/problem/1061)|Beautiful String||Lv.2|1274|[1061](/Solutions/1061)|
+|[1197](http://hihocoder.com/problemset/problem/1197)|Give My Text Back||Lv.1|508|[1197](/Solutions/1197)|
+|[1223](http://hihocoder.com/problemset/problem/1223)|Inequality||Lv.1|587|[1223](/Solutions/1223)|
+|[1268](http://hihocoder.com/problemset/problem/1268)|九宫||Lv.1|660|[1268](/Solutions/1268)|
+|[1335](http://hihocoder.com/problemset/problem/1335)|Email Merge|`data structure` |Lv.2|67|[1335](/Solutions/1335)|
+|[1641](http://hihocoder.com/problemset/problem/1641)|热门号码||Lv.1|125|[1641](/Solutions/1641)|
+|[1642](http://hihocoder.com/problemset/problem/1642)|三角形面积和||Lv.1|67|[1642](/Solutions/1642)|
+|[1784](http://hihocoder.com/problemset/problem/1784)|传输数据||Lv.1|92|[1784](/Solutions/1784)|
+|[1889](http://hihocoder.com/problemset/problem/1889)|炸弹人||Lv.2|22|[1889](/Solutions/1889)|
+|[1961](http://hihocoder.com/problemset/problem/1961)|选择奏折||Lv.3|32|[1961](/Solutions/1961)|
