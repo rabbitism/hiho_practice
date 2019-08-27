@@ -13,7 +13,7 @@ cat input | dotnet run
 # Problem List
 Updated on 2019-08-27
 
-## Solved(27)
+## Solved(28)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -21,6 +21,7 @@ Updated on 2019-08-27
 |[1066](http://hihocoder.com/problemset/problem/1066)|无间道之并查集|`disjoint set` |Lv.2|1178|[1066](/Solutions/1066)|
 |[1094](http://hihocoder.com/problemset/problem/1094)|Lost in the City|`enumeration` |Lv.1|945|[1094](/Solutions/1094)|
 |[1097](http://hihocoder.com/problemset/problem/1097)|最小生成树一·Prim算法|`mst` |Lv.2|979|[1097](/Solutions/1097)|
+|[1098](http://hihocoder.com/problemset/problem/1098)|最小生成树二·Kruscal算法|`mst` |Lv.2|833|[1098](/Solutions/1098)|
 |[1186](http://hihocoder.com/problemset/problem/1186)|Coordinates||Lv.1|1013|[1186](/Solutions/1186)|
 |[1288](http://hihocoder.com/problemset/problem/1288)|Font Size||Lv.1|3445|[1288](/Solutions/1288)|
 |[1361](http://hihocoder.com/problemset/problem/1361)|Playfair密码表||Lv.1|533|[1361](/Solutions/1361)|
@@ -45,14 +46,13 @@ Updated on 2019-08-27
 |[1959](http://hihocoder.com/problemset/problem/1959)|鱼的战斗||Lv.1|56|[1959](/Solutions/1959)|
 |[1960](http://hihocoder.com/problemset/problem/1960)|奇因子之和||Lv.2|52|[1960](/Solutions/1960)|
 
-## Tried, but not solved(13)
+## Tried, but not solved(12)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
 |[1014](http://hihocoder.com/problemset/problem/1014)|Trie树|`trie` |Lv.2|6791|[1014](/Solutions/1014)|
 |[1052](http://hihocoder.com/problemset/problem/1052)|基因工程|`strings` |Lv.2|603|[1052](/Solutions/1052)|
 |[1061](http://hihocoder.com/problemset/problem/1061)|Beautiful String||Lv.2|1274|[1061](/Solutions/1061)|
-|[1098](http://hihocoder.com/problemset/problem/1098)|最小生成树二·Kruscal算法|`mst` |Lv.2|832|[1098](/Solutions/1098)|
 |[1197](http://hihocoder.com/problemset/problem/1197)|Give My Text Back||Lv.1|508|[1197](/Solutions/1197)|
 |[1223](http://hihocoder.com/problemset/problem/1223)|Inequality||Lv.1|587|[1223](/Solutions/1223)|
 |[1268](http://hihocoder.com/problemset/problem/1268)|九宫||Lv.1|660|[1268](/Solutions/1268)|
