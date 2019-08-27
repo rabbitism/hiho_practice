@@ -1,24 +1,30 @@
 # HihoCoder Practice Archive
 
 This is an archive repository for hihocoder questions and my solutions.
+
 ## Environment
+
 .Net Core 2.1.403
 
 ## How to use
+
 Every problem is constructed under an individual project. For projects with standard input, sample input has been already stored in corresponding file with name `input`. You can use it with following command:
 
-```
+```shell
 cat input | dotnet run
 ```
-# Problem List
-Updated on 2019-08-27
 
-## Solved(32)
+# Problem List
+
+Updated on 2019-08-28
+
+## Solved(33)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
 |[1000](http://hihocoder.com/problemset/problem/1000)|A + B|`math` |Lv.1|23695|[1000](/Solutions/1000)|
 |[1014](http://hihocoder.com/problemset/problem/1014)|Trie树|`trie` |Lv.2|6792|[1014](/Solutions/1014)|
+|[1049](http://hihocoder.com/problemset/problem/1049)|后序遍历|`trees` `dfs` |Lv.2|1563|[1049](/Solutions/1049)|
 |[1066](http://hihocoder.com/problemset/problem/1066)|无间道之并查集|`disjoint set` |Lv.2|1178|[1066](/Solutions/1066)|
 |[1094](http://hihocoder.com/problemset/problem/1094)|Lost in the City|`enumeration` |Lv.1|945|[1094](/Solutions/1094)|
 |[1097](http://hihocoder.com/problemset/problem/1097)|最小生成树一·Prim算法|`mst` |Lv.2|980|[1097](/Solutions/1097)|
@@ -50,7 +56,7 @@ Updated on 2019-08-27
 |[1959](http://hihocoder.com/problemset/problem/1959)|鱼的战斗||Lv.1|56|[1959](/Solutions/1959)|
 |[1960](http://hihocoder.com/problemset/problem/1960)|奇因子之和||Lv.2|52|[1960](/Solutions/1960)|
 
-## Not tried(862)
+## Not tried(861)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -72,7 +78,6 @@ Updated on 2019-08-27
 |[1046](http://hihocoder.com/problemset/problem/1046)|K Seq|`segment tree` `heap` |Lv.5|69||
 |[1047](http://hihocoder.com/problemset/problem/1047)|Random Tree|`math` `combinatorics` `probabilities` |Lv.5|14||
 |[1048](http://hihocoder.com/problemset/problem/1048)|状态压缩·二|`bitmasking` `dp` |Lv.3|571||
-|[1049](http://hihocoder.com/problemset/problem/1049)|后序遍历|`trees` `dfs` |Lv.2|1562||
 |[1050](http://hihocoder.com/problemset/problem/1050)|树中的最长路|`trees` |Lv.2|1102||
 |[1051](http://hihocoder.com/problemset/problem/1051)|补提交卡|`greedy` `enumeration` |Lv.1|3026||
 |[1053](http://hihocoder.com/problemset/problem/1053)|居民迁移|`greedy` `binary search` |Lv.2|154||
