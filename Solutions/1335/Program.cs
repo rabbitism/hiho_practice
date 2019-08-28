@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace _1335
 {
@@ -8,91 +7,80 @@ namespace _1335
     {
         static void Main(string[] args)
         {
+            int n = Int32.Parse(Console.ReadLine());
             UnionFind uf = new UnionFind();
-            int count = int.Parse(Console.ReadLine());
-            Dictionary<int, string> indexes = new Dictionary<int, string>();
-            for(int i = 0; i< count; i++)
+            List<string> names = new List<string>();
+            for (int i = 0; i < n; i++)
             {
-                string[] information = Console.ReadLine().Split();
-                string username = information[0];
-                int emailCount = int.Parse(information[1]);
-                indexes.Add(i, username);
-                for(int j = 0; j<emailCount; j++)
+                string[] info = Console.ReadLine().Split();
+                string name = info[0];
+                names.Add(name);
+                int count = Int32.Parse(info[1]);
+                uf.Add(name, name);
+                for (int j = 2; j < info.Length; j++)
                 {
-                    uf.Add(information[2+j], information[2], i);
+                    uf.Add(info[j], name);
                 }
-
             }
-            //uf.Print();
-            var result = uf.GetList();
-            foreach(var key in result.Keys)
+            Dictionary<string, List<string>> dict = new Dictionary<string, List<string>>();
+            foreach(string name in names)
             {
-                List<int> index = new List<int>(result[key]);
-                index.Sort();
-                StringBuilder sb = new StringBuilder();
-                foreach(var number in index)
+                string parent = uf.Find(name);
+                if(dict.ContainsKey(parent)) dict[parent].Add(name);
+                else dict[parent] = new List<string>() { name };
+            }
+            Dictionary<string, List<string>> dict2 = new Dictionary<string, List<string>>();
+            foreach(string parent in dict.Keys)
+            {
+                dict2[dict[parent][0]] = dict[parent];
+            }
+            foreach(string name in names)
+            {
+                if(dict2.ContainsKey(name))
                 {
-                    if(sb.Length!=0) sb.Append(" ");
-                    sb.Append(indexes[number]);
-                    //System.Console.Write(indexes[number]);
+                    System.Console.WriteLine(string.Join(" ", dict2[name]));
                 }
-                System.Console.WriteLine(sb.ToString());
             }
         }
     }
 
-    class UnionFind
+    public class UnionFind
     {
-        Dictionary<string, string> parents = new Dictionary<string, string>();
-        Dictionary<string, HashSet<int>> indexes = new Dictionary<string, HashSet<int>>();
-
-        public void Add(string child, string parent, int index)
+        Dictionary<string, string> parent = new Dictionary<string, string>();
+        public int Count => parent.Count;
+        public UnionFind()
         {
-            if(!parents.ContainsKey(child)) parents.Add(child, parent);
-            else 
+
+        }
+
+        public void Add(string s, string parent)
+        {
+            if(!this.parent.ContainsKey(parent)) this.parent[parent] = parent;
+            if(this.parent.ContainsKey(s))
             {
-                if(parents.ContainsKey(parent)) parents[parent]=parents[child];
-                else parents.Add(parent, parent);
+                Union(this.parent[s], parent);
             }
-            if(!indexes.ContainsKey(child)) indexes.Add(child, new HashSet<int>{index});
             else{
-                indexes[child].Add(index);
+                this.parent[s] = parent;
             }
         }
 
-        public string GetParent(string child)
+        public string Find(string s)
         {
-            while(parents[child]!=child)
+            while(parent[s]!=s)
             {
-                child = parents[child];
+                parent[s] = Find(parent[s]);
+                s = parent[s];
             }
-            return child;
+            return parent[s];
         }
 
-        public void Print()
+        public void Union(string s, string t)
         {
-            foreach(string key in parents.Keys)
-            {
-                System.Console.WriteLine(key+" "+GetParent(key));
-            }
-        }
-
-        public Dictionary<string, HashSet<int>> GetList()
-        {
-            Dictionary<string, HashSet<int>> result = new Dictionary<string, HashSet<int>>(); 
-            foreach(string key in parents.Keys)
-            {
-                string parent = GetParent(key);
-                if(result.ContainsKey(parent))
-                {
-                    foreach(var index in indexes[key])
-                    {
-                        result[parent].Add(index);
-                    }
-                } 
-                else result.Add(parent, new HashSet<int>(indexes[key]));
-            }
-            return result;
+            if(s==t) return;
+            string sparent = Find(s);
+            string tparent = Find(t);
+            parent[sparent] = tparent;
         }
     }
 }
