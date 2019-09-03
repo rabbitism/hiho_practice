@@ -1,0 +1,159 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace _1081
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] numbers = Console.ReadLine().Split();
+            int N = Convert.ToInt32(numbers[0]);
+            int M = Convert.ToInt32(numbers[1]);
+            int S = Convert.ToInt32(numbers[2]);
+            int T = Convert.ToInt32(numbers[3]);
+            int[] shortest = new int[N + 1];
+
+            int[,] matrix = new int[N + 1, N + 1];
+            for (int i = 0; i <= N; i++)
+            {
+                for (int j = 0; j <= N; j++)
+                {
+                    matrix[i, j] = Int32.MaxValue;
+                }
+            }
+            for (int i = 0; i < M; i++)
+            {
+                string[] edge = Console.ReadLine().Split();
+                int start = Convert.ToInt32(edge[0]);
+                int end = Convert.ToInt32(edge[1]);
+                int length = Convert.ToInt32(edge[2]);
+                matrix[start, end] = Math.Min(length, matrix[start, end]);
+                matrix[end, start] = Math.Min(length, matrix[end, start]);
+            }
+
+            PriorityQueue<Edge> queue = new PriorityQueue<Edge>((a, b) => (a.Length - b.Length));
+
+
+            HashSet<int> visited = new HashSet<int>();
+            int point = S;
+            while (point != T)
+            {
+                for (int i = 1; i <= N; i++)
+                {
+                    if (i == point) continue;
+                    if (visited.Contains(i)) continue;
+                    queue.Enqueue(new Edge(point, i, shortest[point] + matrix[point, i]));
+                }
+                Edge top = queue.Dequeue();
+                shortest[top.End] = top.Length;
+                if (top.End == T)
+                {
+                    Console.WriteLine(shortest[T]);
+                    return;
+                }
+                
+                point = top.End;
+            }
+            return;
+
+        }
+    }
+
+    public class Edge
+    {
+        public int Start { get; private set; }
+        public int End { get; private set; }
+        public int Length { get; private set; }
+
+        public Edge(int start, int end, int length)
+        {
+            this.Start = start;
+            this.End = end;
+            this.Length = length;
+        }
+
+    }
+
+    public class PriorityQueue<T>
+    {
+        public List<T> data;
+        Func<T, T, int> comparer;
+
+        public int Count => data.Count;
+
+        public PriorityQueue(Func<T, T, int> comparer)
+        {
+            data = new List<T>();
+            this.comparer = comparer;
+        }
+
+        private int GetParent(int i) => (i - 1) / 2;
+        private int GetLeftChild(int i) => 2 * i + 1;
+        private int GetRightChild(int i) => 2 * i + 2;
+
+        private void ShiftUp(int i)
+        {
+            while (i > 0 && comparer(data[GetParent(i)], data[i]) > 0)
+            {
+                Swap(i, GetParent(i));
+                i = GetParent(i);
+            }
+        }
+
+        private void ShiftDown(int i)
+        {
+            while (GetLeftChild(i) < Count)
+            {
+                int child = GetLeftChild(i);
+                if (GetRightChild(i) < Count && comparer(data[GetRightChild(i)], data[GetLeftChild(i)]) > 0)
+                {
+                    child = GetRightChild(i);
+                }
+                if (comparer(data[i], data[child]) > 0)
+                {
+                    Swap(i, child);
+                    i = child;
+                }
+                else{
+                    return;
+                }
+            }
+        }
+
+        private void Swap(int i, int j)
+        {
+            if (i == j) return;
+            T temp = data[i];
+            data[i] = data[j];
+            data[j] = temp;
+        }
+
+        public void Enqueue(T t)
+        {
+            data.Add(t);
+            ShiftUp(Count - 1);
+        }
+
+        public T Peek()
+        {
+            if (Count == 0)
+            {
+                throw new InvalidOperationException("Empty Queue");
+            }
+            else
+            {
+                return data[0];
+            }
+        }
+
+        public T Dequeue()
+        {
+            T result = Peek();
+            data[0] = data[Count - 1];
+            data.RemoveAt(Count - 1);
+            ShiftDown(0);
+            return result;
+        }
+    }
+}
