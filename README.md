@@ -4,7 +4,7 @@ This is an archive repository for hihocoder questions and my solutions.
 
 ## Environment
 
-.Net Core 3.0.100
+.Net Core 2.1.403
 
 ## How to use
 
@@ -18,7 +18,7 @@ cat input | dotnet run
 
 Updated on 2019-10-14
 
-## Solved(45)
+## Solved(46)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -45,6 +45,7 @@ Updated on 2019-10-14
 |[1493](http://hihocoder.com/problemset/problem/1493)|歌德巴赫猜想||Lv.1|492|[1493](/Solutions/1493)|
 |[1494](http://hihocoder.com/problemset/problem/1494)|一面砖墙||Lv.2|331|[1494](/Solutions/1494)|
 |[1501](http://hihocoder.com/problemset/problem/1501)|风格不统一如何写程序||Lv.1|468|[1501](/Solutions/1501)|
+|[1518](http://hihocoder.com/problemset/problem/1518)|最大集合||Lv.1|272|[1518](/Solutions/1518)|
 |[1522](http://hihocoder.com/problemset/problem/1522)|F1 Score||Lv.1|247|[1522](/Solutions/1522)|
 |[1603](http://hihocoder.com/problemset/problem/1603)|提取用户名||Lv.1|195|[1603](/Solutions/1603)|
 |[1615](http://hihocoder.com/problemset/problem/1615)|矩阵游戏II||Lv.1|141|[1615](/Solutions/1615)|
@@ -68,7 +69,7 @@ Updated on 2019-10-14
 |[1960](http://hihocoder.com/problemset/problem/1960)|奇因子之和||Lv.2|53|[1960](/Solutions/1960)|
 |[1985](http://hihocoder.com/problemset/problem/1985)|订单追踪||Lv.1|15|[1985](/Solutions/1985)|
 
-## Not tried(852)
+## Not tried(851)
 
 |ID|Name|Tags|Difficulty|Solved|Solution|
 |:---:|:---|:---|:---:|:---|:---:|
@@ -417,7 +418,7 @@ Updated on 2019-10-14
 |[1438](http://hihocoder.com/problemset/problem/1438)|Gas Stations||Lv.2|49||
 |[1439](http://hihocoder.com/problemset/problem/1439)|Logic Expression Tree||Lv.3|34||
 |[1440](http://hihocoder.com/problemset/problem/1440)|Keywords Filter||Lv.3|33||
-|[1441](http://hihocoder.com/problemset/problem/1441)|后缀自动机一·基本概念||Lv.2|235||
+|[1441](http://hihocoder.com/problemset/problem/1441)|后缀自动机一·基本概念||Lv.2|236||
 |[1442](http://hihocoder.com/problemset/problem/1442)|Smallest Rectangle||Lv.2|48||
 |[1443](http://hihocoder.com/problemset/problem/1443)|Push Button I||Lv.2|57||
 |[1444](http://hihocoder.com/problemset/problem/1444)|Push Button II||Lv.3|42||
@@ -488,7 +489,6 @@ Updated on 2019-10-14
 |[1515](http://hihocoder.com/problemset/problem/1515)|分数调查||Lv.3|290||
 |[1516](http://hihocoder.com/problemset/problem/1516)|过河问题||Lv.3|53||
 |[1517](http://hihocoder.com/problemset/problem/1517)|模拟降水||Lv.4|10||
-|[1518](http://hihocoder.com/problemset/problem/1518)|最大集合||Lv.1|271||
 |[1519](http://hihocoder.com/problemset/problem/1519)|逃离迷宫II||Lv.2|119||
 |[1520](http://hihocoder.com/problemset/problem/1520)|古老数字||Lv.3|49||
 |[1521](http://hihocoder.com/problemset/problem/1521)|矩阵游戏||Lv.4|9||
@@ -612,7 +612,7 @@ Updated on 2019-10-14
 |[1647](http://hihocoder.com/problemset/problem/1647)|Rikka with Function||Lv.5|3||
 |[1648](http://hihocoder.com/problemset/problem/1648)|Rikka with String III||Lv.5|3||
 |[1649](http://hihocoder.com/problemset/problem/1649)|漏写的数字||Lv.1|115||
-|[1650](http://hihocoder.com/problemset/problem/1650)|扁平化管理||Lv.2|60||
+|[1650](http://hihocoder.com/problemset/problem/1650)|扁平化管理||Lv.2|61||
 |[1651](http://hihocoder.com/problemset/problem/1651)|小球染色||Lv.3|56||
 |[1652](http://hihocoder.com/problemset/problem/1652)|三角形面积和2||Lv.3|15||
 |[1653](http://hihocoder.com/problemset/problem/1653)|公平分队||Lv.2|121||
