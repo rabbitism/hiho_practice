@@ -10,7 +10,7 @@ def load_content():
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
         "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
-        "Cookie": "PHPSESSID=q1lsso3f11db5mdnvp2rv77ejg; Hm_lvt_9334676254a219943ea90c19530c3bec=1565836773,1566894563,1567052724,1567499315; Hm_lpvt_9334676254a219943ea90c19530c3bec=1567505009",
+        "Cookie": "PHPSESSID=osrna4hihrlcc6e6tbemardgrk; Hm_lvt_9334676254a219943ea90c19530c3bec=1571043283; Hm_lpvt_9334676254a219943ea90c19530c3bec=1571046319",
         "Host": "hihocoder.com",
         "Referer": "http://hihocoder.com/hiho",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3879.0 Safari/537.36 Edg/78.0.249.1"
