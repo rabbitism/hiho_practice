@@ -21,7 +21,8 @@ namespace _1032
             }
             foreach (var s in list)
             {
-                System.Console.WriteLine(Check(s));
+                if(s.Length==0) System.Console.WriteLine(0);
+                else System.Console.WriteLine(Check(s));
             }
         }
 
