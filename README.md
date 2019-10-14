@@ -4,7 +4,7 @@ This is an archive repository for hihocoder questions and my solutions.
 
 ## Environment
 
-.Net Core 2.1.403
+.Net Core 3.0.100
 
 ## How to use
 
